@@ -1,0 +1,41 @@
+.satisfy-regular {
+  font-family: "Satisfy", cursive;
+}
+
+html,
+body{
+  height: 100%;
+  background-color: #373636;
+
+}
+
+.container-fluid{
+  min-height: 100%;
+}
+
+.image img{
+  width: 100px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.i-color{
+  color:chartreuse;
+}
+
+.ss-color{
+  color: silver;
+}
+
+a.ndv-link{
+  color: whitesmoke;
+}
+a.nav-link:hover{
+  color: black;
+  background-color: #e9cd79;
+}
+a.nav-link.active{
+  color :black;
+  background: color #ffc107;
+  font-weight: bold;
+}
